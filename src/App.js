@@ -1,6 +1,7 @@
 import DemoUseEffect from "./UseEffect/DemoUseEffect";
 import DemoUseState from "./UseState/DemoUseState";
 import DemoUseContext from "./UseContext/DemoUseContext"
+import DemoUseReducer from "./UseReducer/DemoUseReducer"
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
       <h2>Use Context</h2>
       <DemoUseContext />
       <hr />
-      
+
+      <h2>UseReducer</h2>
+      <DemoUseReducer />
+      <hr />
     </div>
   );
 }
